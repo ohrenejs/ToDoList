@@ -118,6 +118,10 @@ input:checked + strong {
     margin-right: var(--margin-right);
 }
 
+.delete-btn i{
+    pointer-events: none;
+}
+
 /* Test */
 
 /* Customize the label (the container) */

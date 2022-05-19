@@ -23,33 +23,13 @@
     <section class="list-section">
         <h1 class="visually-hidden">To Do List</h1>
         <ul class="todo-list">
-            <li class="todo-item">
-                <label class="container">
-                    <input type="checkbox" checked>
-                    <strong>Home</strong>
-                    <span class="checkmark"></span>
-                </label>
-                <button type="button" class="delete-btn btn-base">
-                    <i class="fa-solid fa-trash-can"></i>
-                </button>
-            </li>
-            <li class="todo-item">
-                <label class="container">
-                    <input type="checkbox" checked>
-                    <strong>Work</strong>
-                    <span class="checkmark"></span>
-                </label>
-                <button type="button" class="delete-btn btn-base">
-                    <i class="fa-solid fa-trash-can"></i>
-                </button>
-            </li>
         </ul>
-        <form id="new-list-form">
-            <label for="new-list" class="plus-btn">
+        <form id="new-list-form" autocomplete="off">
+            <label for="new-input" class="plus-btn">
                 <i class="fa-solid fa-plus"></i>
             </label>
-            <input type="text" id="new-list" placeholder="Create new list">
-            <button type="button" class="send-btn btn-base">
+            <input type="text" id="new-input" placeholder="Create new list" required>
+            <button type="submit" class="send-btn btn-base">
                 <i class="fa-solid fa-paper-plane"></i>
             </button>
         </form>
